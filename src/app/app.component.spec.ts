@@ -21,6 +21,6 @@ describe('AppComponent', () => {
   it(`should have as title 'List Of dummy users'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('List Of dummy users');
+    expect(app.title).toEqual('List Of dummy fail test');
   });
 });
